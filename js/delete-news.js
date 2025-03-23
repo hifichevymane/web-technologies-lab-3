@@ -1,3 +1,2 @@
-const newsSection = document.querySelector('.col1');
-const newsSectionData = newsSection.querySelectorAll('div');
+const newsSectionData = document.querySelectorAll('.col1 .wrapper');
 newsSectionData.forEach((element) => element.remove());
